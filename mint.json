@@ -64,8 +64,8 @@
       "group": "Features",
        "pages": [
         "features/welcome",
-        "features/erlcintegration",
-        "features/erlclogging",
+        "features/ERLC Integration",
+        "features/ERLC Logging",
         "feaures/shifts",
         "features/moderations",
         "features/infractions",
