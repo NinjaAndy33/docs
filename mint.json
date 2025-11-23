@@ -64,21 +64,16 @@
       ]
     },
     {
-      "group": "Modules",
+      "group": "features",
        "pages": [
-        "Modules/infractions",
-        "Modules/promotions",
-        "Modules/quota",
-        "Modules/feedback",
-        "Modules/loa",
-        "Modules/suggestions",
-        "Modules/modmail",
-        "Modules/responder",
-        "Modules/qotd",
-        "Modules/Staffdb",
-        "Modules/stafflist",
-        "Modules/tickets"
-        
+        "features/welcome",
+        "features/erlcintegration",
+        "features/erlclogging",
+        "feaures/shifts",
+        "features/moderations",
+        "features/infractions",
+        "features/promotions",
+        "features/sessions"
        ]
     }
   ],
