@@ -55,10 +55,7 @@
     {
       "group": "Configuration",
       "pages": [
-        "configuration/beginner",
-        "configuration/permissions",
-        "configuration/variables",
-        "configuration/integration"
+        "configuration/beginner"
 
 
       ]
