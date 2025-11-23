@@ -64,7 +64,7 @@
       ]
     },
     {
-      "group": "features",
+      "group": "Features",
        "pages": [
         "features/welcome",
         "features/erlcintegration",
