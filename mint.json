@@ -5,7 +5,7 @@
     "dark": "/logo/logo.png",
     "light": "/logo/logo.png"
   },
-  "favicon": "/logo/astro-logo.svg",
+  "favicon": "/logo/logo.png",
   "colors": {
     "primary": "#1e73f1",
     "light": "#1e73f1",
