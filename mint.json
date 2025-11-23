@@ -1,0 +1,89 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Aventra Systems",
+  "logo": {
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
+  },
+  "favicon": "/logo/astro-logo.svg",
+  "colors": {
+    "primary": "#1e73f1",
+    "light": "#1e73f1",
+    "dark": "#1e73f1",
+    "anchors": {
+      "from": "#1e73f1",
+      "to": "#1e73f1"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Home",
+      "url": "https://aventrabot.xyz"
+    },
+    {
+      "name": "Status",
+      "url": "https://status.aventrabot.xyz"
+    },
+    {
+      "name": "Support",
+      "url": "https://discord.gg/6rpcMfM5Py"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Invite",
+    "url": "https://discord.com/oauth2/authorize?client_id=1427497982835687546&permissions=8&integration_type=0&scope=applications.commands+bot"
+  },
+  "anchors": [
+    {
+      "name": "Support Server",
+      "icon": "Discord",
+      "url": "https://discord.gg/6rpcMfM5Py"
+    },
+    {
+      "name": "Website",
+      "icon": "newspaper",
+      "url": "https://aventrabot.xyz"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Bulletin",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
+      "group": "Configuration",
+      "pages": [
+        "configuration/beginner",
+        "configuration/permissions",
+        "configuration/variables",
+        "configuration/integration"
+
+
+      ]
+    },
+    {
+      "group": "Modules",
+       "pages": [
+        "Modules/infractions",
+        "Modules/promotions",
+        "Modules/quota",
+        "Modules/feedback",
+        "Modules/loa",
+        "Modules/suggestions",
+        "Modules/modmail",
+        "Modules/responder",
+        "Modules/qotd",
+        "Modules/Staffdb",
+        "Modules/stafflist",
+        "Modules/tickets"
+        
+       ]
+    }
+  ],
+  "footerSocials": {
+    "x-twitter": "https://x.com/AventraBot",
+    "discord": "https://discord.gg/6rpcMfM5Py"
+  }
+}
