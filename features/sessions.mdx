@@ -21,7 +21,31 @@ description: Learn about the Sessions Module!
 
   <Tab title="Log Channel Info">
     - `Destination Channel` → Channel where the Sessions embed gets sent  
-    - `Staff Role` → Role that allows you to use Session Commands
+    - `Staff Role` → Role that allows you to use Session Commands  
+  </Tab>
+
+  <Tab title="Variables">
+    Below are all the available variables to use for your embed customization:
+
+    `{server_name}` → The name of the session server  
+    `{player_count}` → The current number of players  
+    `{max_players}` → The maximum allowed players  
+    `{duration}` → The duration of the session, or “N/A”  
+    `{join_key}` → The session join key  
+    `{owner_id}` → The session owner’s Roblox user ID  
+    `{co_owners}` → The formatted list of co-owners  
+    `{co_owners_raw}` → Raw co-owner data  
+    `{staff_role_mention}` → Mention of the assigned staff role, or “N/A”  
+    `{staff_role_id}` → The staff role ID, or “N/A”  
+    `{staff_role_name}` → The staff role name, or “N/A”  
+    `{date_timestamp}` → Full date/time stamp (Discord <t:...:F> format)  
+    `{relative_timestamp}` → Relative time (Discord <t:...:R> format)  
+    `{channel}` → Channel mention used for logging  
+    `{channel_id}` → The destination channel ID, or “N/A”  
+    `{user_name}` → The display name of the user running the session  
+    `{user_mention}` → Mention of the user  
+    `{user_id}` → The user’s Discord ID  
+    `{user_avatar}` → The URL of the user’s avatar  
   </Tab>
 </Tabs>
 
@@ -31,6 +55,6 @@ description: Learn about the Sessions Module!
     - **/sessionend** → Announce your session has ended  
     - **/sessionfull** → Announce your session is full  
     - **/sessionstart** → Start a session  
-    - **/sessionvote** → Start a session vote
+    - **/sessionvote** → Start a session vote  
   </Accordion>
 </AccordionGroup>
